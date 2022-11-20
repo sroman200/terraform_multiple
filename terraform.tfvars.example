@@ -1,0 +1,21 @@
+### Yandex Cloud credentials
+cloud_id  = ""
+folder_id = ""
+
+### AWS credentials
+aws_access_key  = ""
+aws_secret_key  = ""
+aws_region=""
+
+### Maps of objects vps, key:value 
+devs={
+  "lbx2"={type="lb"}
+  "wbx3"={type="web"}
+  "wbx4"={type="web"}      
+}
+availibility_zone_yandex= "" # example (ru-central1-a)
+path_file_public_key    = "" # public key for export to vps
+zone_name               = "" # domain_zone, example (your domain in aws)
+image_id                = "" # example (for OS:centos7, remote-user:centos)
+email                   = "" # for label
+remote-user             = ""
