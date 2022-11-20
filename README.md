@@ -4,11 +4,12 @@
 * Set up aws_route53 linked with ip vps
 
 
-#####Copy and edit terraform.tfvars
+##### Copy and edit terraform.tfvars
 ```
 cp terraform.tfvars.example terraform.tfvars
-
-**You can add or delete records from devs**
+```
+##### You can add or delete records from devs
+```
 devs={
   "lbx2"={type="lb"}
   "wbx3"={type="web"}
